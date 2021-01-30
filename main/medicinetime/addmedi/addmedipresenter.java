@@ -80,14 +80,7 @@ public class AddMedicinePresenter implements AddMedicineContract.Presenter, Medi
 
     @Override
     public void onTaskLoaded(MedicineAlarm medicineAlarm) {
-        // The view may not be able to handle UI updates anymore
-        /*if (mAddMedicineView.isActive()){
-            mAddMedicineView.setDose(medicineAlarm.getDose());
-            mAddMedicineView.setMedName(medicineAlarm.getMedicineName());
-            mAddMedicineView.setDays(medicineAlarm.getDays());
-            mAddMedicineView.setTime(medicineAlarm.getTime());
-        }
-        mIsDataMissing = false;*/
+       
     }
 
     @Override
